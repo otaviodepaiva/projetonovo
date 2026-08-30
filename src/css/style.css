@@ -1,33 +1,43 @@
+/*
+######################################
+Reset Básico
+######################################
+
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-background-color: rgb(222, 222, 222);
+/* definir fundo cinza pro body */
+body {
+    background-color: rgb(222, 222, 222);
 }
+
 .global-container {
     display: flex;
-    background-color: coral;
     width: 100%;
     height: 90px;
+    background-color: #fff;
+    padding-bottom: 5px;
 }
 
 .header-container {
     display: flex;
     flex-direction: row;
-    background-color: rgb(95, 151, 210);
-    border: 1px solid black;
+    background-color: #fff;
+    
 }
-.brasaopmac{
-   display: flex;
-}   
-.hero_fotoprincipal img{
+
+.brasaopmac {
     display: flex;
-    background-color: rgb(183, 0, 255);
+}
+
+.hero_fotoprincipal img {
+    display: flex;
     width: 100%;
+    background-color: rgb(183, 0, 255);
     border: 1px solid #000;
-   
 }
 
 .section-intermediaria {
@@ -36,10 +46,10 @@ background-color: rgb(222, 222, 222);
     background-color: rgb(30, 255, 0);
     border: 1px solid black;
 }
+
 .section-footer {
     display: flex;
     flex-direction: row;
     background-color: rgb(95, 151, 210);
     border: 1px solid black;
 }
-
