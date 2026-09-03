@@ -26,11 +26,13 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    
 }
 
-.brasaopmac {
+.part1-pmaclogo {
     display: flex;
+}
+.part1-weather{
+    display:flex
 }
 
 .hero_fotoprincipal img {
